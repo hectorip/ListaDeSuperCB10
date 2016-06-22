@@ -1,0 +1,52 @@
+/*@font-face {
+    font-family: 'Operator Mono';
+    src: url(sansation_light.woff);
+}*/
+ /*
+ Cascade style sheets
+ */
+*{
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: Helvetica, Verdana, sans-serif;*/
+}
+
+/*selector{
+  propiedad: valor; /* regla
+}*/
+
+h1, .class, #h3{
+  color: rgb(0, 0, 255);
+  color: #606;/* 0-9 - A, B, C, D, E, F */
+  color: aquamarine; /* green, blue, black, brown */
+}
+
+.class{
+
+}
+
+#id{
+  background-color: #000;
+}
+
+/* Selectores compuesto*/
+header h1{
+  color: red;
+}
+
+main{
+  border: 2px dashed black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: red;
+  font-size: 10pt;
+}
