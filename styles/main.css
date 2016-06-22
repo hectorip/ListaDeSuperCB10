@@ -32,3 +32,9 @@ h1, .class, #h3{
 header h1{
   color: red;
 }
+
+
+
+main{
+  border: 2px dashed black;
+}
