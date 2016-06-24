@@ -97,6 +97,16 @@
         console.log("No eres mayor de edad")
       }
 
+      var pais = prompt("¿De qué país eres?")
+
+      if(pais == 'MX' && edad >= 18){
+        console.log("Eres mayor de edad en México");
+      } else if(pais == 'US' && edad >= 21){
+        console.log("Eres mayor de edad en estados unidos.")
+      } else {
+        console.log("No eres mayor de edad.")
+      }
+
     </script>
 </body>
 </html>
