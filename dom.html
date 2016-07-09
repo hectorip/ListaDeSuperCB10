@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modificando DOM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+
+<body>
+
+  <h1> Modificando DOM </h1>
+
+  <input type="text" onChange="escribir_texto(this)" >
+
+  <p class="parrafos">
+    Esto es un párrafo
+  </p>
+
+  <script>
+
+    var titulo = document.querySelector("h1");
+    console.log("El elemento seleccionado es: ")
+    console.log(titulo);
+    //titulo.innerText = "arriba matamoros";
+
+    function escribir_texto(caja_texto){
+      // cuerpo de la funcion
+      console.log(caja_texto.value);
+      titulo.innerText = caja_texto.value;
+    }
+
+  </script>
+
+</body>
+</html>
